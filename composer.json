@@ -1,0 +1,29 @@
+{
+	"name": "krakorj/phppivot",
+	"description": "PHP tool to process pivot tables from a database",
+	"keywords": ["pivot", "tables"],
+	"homepage": "https://github.com/krakorj/phppivot",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Jan Krakora",
+			"homepage": "https://industrialinformatics.cz/"
+		}
+	],
+	"require": {
+		"php": ">=5.4.4",
+	},
+	"require-dev": {
+		"nette/tester": "~2.0",
+		"tracy/tracy": "^2.3"
+	},
+	"suggest": {
+		"ext-mbstring": "to use filters like lower, upper, capitalize, ...",
+		"ext-fileinfo": "to use filter |datastream",
+		"ext-xml": "to use filters like length, substring, ..."
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"minimum-stability": "dev"
+}
